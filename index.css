@@ -1,0 +1,74 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+.intro{
+    margin-bottom: 0px;
+    border-bottom:1px solid #C6C6C6;
+}
+.container{
+    display: flex;
+    /* border-bottom: 1px solid green; */
+    justify-content: space-between;    
+    padding: 10px;
+    margin: 10px;
+}
+
+.comments{
+    margin: 30px 45px 40px 40px;
+    font-size: 40px;
+}
+.avatar{
+   /* border: 1px solid green; */
+   display: flex;
+   padding: 13px;
+   margin: 13px;    
+   gap: 20px;
+}
+
+
+
+.round-img{
+    border-radius: 50%;
+    height: 120px;
+}
+
+#oldgram-img{
+    width: auto;  
+    height: 150px;
+    text-align: center;
+}
+
+#user-img{
+    padding: 0;
+    margin: 20px;
+}
+
+.just-bold-text{
+    font-weight: 700;  
+}
+.bold-text{
+    font-weight: 700; 
+    font-size: 40px;
+}
+
+.non-bold-text{
+    font-size: 40px;
+    font-weight: 400;
+    
+}
+
+.post-img{
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+.icons{
+    display: flex;
+    width: 346px;
+    height: 70px;
+    padding: 45px 0px 25px 25px;
+    gap: 35px;
+}
